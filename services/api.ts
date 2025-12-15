@@ -6,7 +6,7 @@ import { MOCK_USERS, MOCK_RECORDS } from './mockData';
 // In Vite, env vars are accessed via import.meta.env
 const USE_MOCK = (import.meta as any).env.VITE_USE_MOCK === 'true';
 
-const API_BASE = 'http://localhost:8083/api';
+// const API_BASE = 'http://localhost:8083/api';
 
 // --- MOCK LOGIC HELPERS ---
 const mockLogic = {
